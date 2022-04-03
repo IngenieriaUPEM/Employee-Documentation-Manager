@@ -1,0 +1,123 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8f7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Header*/
+
+header{
+    height: 65px;
+    padding: 5px;
+    color: #282623;
+    background-color: #1a9af7;
+}
+
+/*Main*/
+
+.container{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    align-items: flex-start;
+    margin: 30px 20%; 
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 3px solid #282623;
+    box-shadow: 15px 15px 15px -3px rgba(0,0,0,0.1);
+    color: #282828;
+    background-color: #fff;
+}
+
+.container .form-container{
+    width: 30%;
+    margin: 15px 0;
+}
+    
+textarea{
+    width: 350px;
+    height: 150px;
+    resize: none;
+    outline: none; 
+}
+
+.form-container-document{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #868686;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
