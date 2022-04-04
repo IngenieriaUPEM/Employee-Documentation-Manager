@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Software</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <header>
+        <p>Soy el Header</p>
+    </header>
+
+    <main>
+        <section class="container">
+
+            <h1>Gestor de documentaión de Colaboradores.</h1>
+
+            <h2>Documentos Personales.</h2>
+
+           <form action="#" class="form-container-document" method="POST" id="formulario"> <!--Formulario de documentos personales-->
+                <label class="input-box" for="name">
+                        <p class="paraphe">Nombre(s):</p>
+                        <input type="text" required name="nombre" id="name" placeholder="ej* Daniel Eduardo">
+                </label>
+
+                <label class="input-box" for="ape_pat">
+                        <p class="paraphe">Apellido Paterno:</p>
+                        <input type="text" required name="ape_pat" id="pat" placeholder="ej* Perea">
+                </label>
+
+                <label class="input-box" for="ape_mat">
+                        <p class="paraphe">Apellido Materno:</p>
+                        <input type="text" required name="ape_mat" id="mat" placeholder="ej* Caballero">
+                </label>
+
+                <label class="input-box" for="naciemiento">
+                        <p class="paraphe">Fecha de naciemiento:</p>
+                        <input type="date" required name="naciemiento" id="birthday">
+                </label>
+
+                <label class="input-box" for="edad">
+                        <p class="paraphe">Edad:</p>
+                        <input type="number" required name="edad" id="age" placeholder="ej* 27 años ">
+                </label>
+
+               
+                <label class="input-box" for="sex">
+                        <p class="paraphe">Sexo:</p>
+                        <select required name="Sexo" id="genero">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                        </select>
+                </label>
+
+                <label class="input-box" for="civil">
+                        <p class="paraphe">Estado Civil:</p>
+                        <select required name="civil" id="estado_civil">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Otro">Otro</option>
+                        </select>
+                </label>
+
+                <label class="input-box" for="nac">
+                        <p class="paraphe">Nacionalidad</p>
+                        <input type="text" required name="nac" id="nacionalidad" placeholder="ej* Mexicano">
+                </label>
+
+                <label class="input-box" for="phone">
+                        <p class="paraphe">Teléfono:</p>
+                        <input type="number" required name="phone" id="phone" placeholder="ej* 2592-3030">
+                </label>
+
+                <label class="input-box" for="phone">
+                        <p class="paraphe">Móvil:</p>
+                        <input type="number" required name="phone" id="phone2" placeholder="ej* 55-1618-2530">
+                </label>
+
+                <label class="input-box" for="email">
+                        <p class="paraphe">Correo electrónico:</p>
+                        <input type="email" required name="email" id="correo" placeholder="ej* danielcaballero@outlook.com">
+                </label>
+
+                <label class="input-box" for="rcf">
+                        <p class="paraphe">RFC:</p>
+                        <input type="text" required name="rfc" id="rfc" placeholder="ej* ads96hdf2a">
+                </label>
+
+                <label class="input-box" for="curp">
+                        <p class="paraphe">CURP:</p>
+                        <input type="text" required name="curp" id="curp" placeholder="ej* PECD95010609HDFRN19">
+                </label>
+                
+                <label class="input-box" for="nss">
+                        <p class="paraphe">Numero de Seguro Socuial: </p>
+                        <input type="number" required name="nss" id="nss" placeholder="ej*  95647872453">
+                </label>
+                
+         
+
+           <!----------------------------------------------------------------------------------------------->
+
+           <h2>Experiencia laboral.</h2>
+
+           <!--Formulario documentación de experiencia laboral -->
+           
+                <label class="input-box" for="experience1"> 
+                        <p class="paraphe">Puesto Anterior:</p>
+                        <input type="text" required name="experience" id="experience" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="antiguedad">
+                        <h3 class="paraphe">Antiguedad:</h3>
+                        <p>Fecha Inicio:</p>
+                        <input type="date" required name="antiguedad" id="antiguedad1">
+                        <p>Fecha de Finalización: </p>
+                        <input type="date" required name="antiguedad" id="antiguedad2" placeholder="ej* ">
+                </label>
+
+                <label class="input-box" for="acts">
+                        <p class="paraphe">Actividades Desarrolladas:</p>
+                        <textarea name="act" id="actividades" cols="30" rows="10"></textarea>
+                </label>
+
+                <label class="input-box" for="courses">
+                        <p class="paraphe">Curos:</p>
+                        <input type="text" required name="courses" id="cursos" placeholder="ej* Escuela de desarrollo web en Platzi.">
+                </label>
+
+                <label class="input-box" for="recomendation">
+                        <p class="paraphe">Cartas de Recomendación:</p>
+                        <input type="file"  name="recoendation" id="recomendation">     
+                </label>
+
+       
+
+
+           <!---------------------------------------------------------------------------------------------->
+
+           <h2>Formación Académica</h2>
+
+            <!--Formulario para datos generales -->
+           
+
+                <label class="input-box" for="estudies">
+                        <p class="paraphe">Grado de estudios:</p>
+                        <input type="text" required name="estudies" id="estudios" placeholder="ej* Titulado">
+                </label>
+
+                <label class="input-box" for="inst">
+                        <p class="paraphe">Institución:</p>
+                        <input type="text" required name="inst" id="institucion" placeholder="ej* UPEM Ixtapaluca">
+                </label>
+                
+                <label class="input-box" for="reg">
+                        <p class="paraphe">Luegar de Formación:</p>
+                        <input type="text" required name="reg" id="region" placeholder="ej* Ixtapaluca México">
+                </label>
+
+                <label class="input-box" for="universiti_date">
+                        <p class="paraphe">Año de Graduación:</p>
+                        <input type="date" required name="university_date" id="date" placeholder="ej* 14-Julio-2023">
+                </label>
+
+                <label class="input-box" for="Len">
+                        <p class="paraphe">Idiomas que Domina:</p>
+                        <input type="text" required name="len" id="Lenguajes" placeholder="ej* Español, Ingles, Finlandes">
+                </label>
+
+                <label class="input-box" for="courses2">
+                        <p class="paraphe">Curos:</p>
+                        <input type="text" required name="courses2" id="cursos2" placeholder="ej* Escuela de desarrollo web en Platzi.">
+                </label>
+
+            </form>   
+            
+            <div class="input-box">
+                <button type="submit" class="boton" >Guardar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
+
+<!-- 
+<label class="input-box" for="">
+        <p class="paraphe"></p>
+        <input type="text" required name="" id="" placeholder="ej* ">
+</label>
+-->
