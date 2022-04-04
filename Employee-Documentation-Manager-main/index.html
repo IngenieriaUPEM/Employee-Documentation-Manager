@@ -21,7 +21,7 @@
 
             <h2>Documentos Personales.</h2>
 
-           <form action="#" class="form-container-document" method="POST"> <!--Formulario de documentos personales-->
+           <form action="#" class="form-container-document" method="POST" id="formulario"> <!--Formulario de documentos personales-->
                 <label class="input-box" for="name">
                         <p class="paraphe">Nombre(s):</p>
                         <input type="text" required name="nombre" id="name" placeholder="ej* Daniel Eduardo">
@@ -42,24 +42,29 @@
                         <input type="date" required name="naciemiento" id="birthday">
                 </label>
 
+                <label class="input-box" for="edad">
+                        <p class="paraphe">Edad:</p>
+                        <input type="number" required name="edad" id="age" placeholder="ej* 27 años ">
+                </label>
+
                
                 <label class="input-box" for="sex">
                         <p class="paraphe">Sexo:</p>
-                        <select required name="Sexo" id="">
-                        <option value="">Seleccione una Opcion</option>
-                        <option value="Hombre">Hombre</option>
-                        <option value="Mujer">Mujer</option>
+                        <select required name="Sexo" id="genero">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
                         </select>
                 </label>
 
-                <label class="input-box" for="edad">
-                        <p class="paraphe">Edad:</p>
-                        <input type="text" required name="edad" id="edad" placeholder="ej* 27 años ">
-                </label>
-
                 <label class="input-box" for="civil">
-                        <p class="paraphe">Estado Civil: </p>
-                        <input type="text" required name="civil" id="estado_civil" placeholder="ej* Casado">
+                        <p class="paraphe">Estado Civil:</p>
+                        <select required name="civil" id="estado_civil">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Otro">Otro</option>
+                        </select>
                 </label>
 
                 <label class="input-box" for="nac">
@@ -74,57 +79,58 @@
 
                 <label class="input-box" for="phone">
                         <p class="paraphe">Móvil:</p>
-                        <input type="number" required name="phone" id="phone" placeholder="ej* 55-1618-2530">
+                        <input type="number" required name="phone" id="phone2" placeholder="ej* 55-1618-2530">
                 </label>
 
                 <label class="input-box" for="email">
                         <p class="paraphe">Correo electrónico:</p>
-                        <input type="text" required name="email" id="email" placeholder="ej* danielcaballero@outlook.com">
+                        <input type="email" required name="email" id="correo" placeholder="ej* danielcaballero@outlook.com">
                 </label>
 
                 <label class="input-box" for="rcf">
                         <p class="paraphe">RFC:</p>
-                        <input type="file" required name="rcf" id="rcf" placeholder="ej* ads96hdf2a">
+                        <input type="text" required name="rfc" id="rfc" placeholder="ej* ads96hdf2a">
                 </label>
 
                 <label class="input-box" for="curp">
                         <p class="paraphe">CURP:</p>
-                        <input type="file" required name="curp" id="curp" placeholder="ej* PECD95010609HDFRN19">
+                        <input type="text" required name="curp" id="curp" placeholder="ej* PECD95010609HDFRN19">
                 </label>
                 
                 <label class="input-box" for="nss">
                         <p class="paraphe">Numero de Seguro Socuial: </p>
-                        <input type="file" required name="nss" id="nss" placeholder="ej*  95647872453">
+                        <input type="number" required name="nss" id="nss" placeholder="ej*  95647872453">
                 </label>
                 
-           </form>
+         
 
            <!----------------------------------------------------------------------------------------------->
 
            <h2>Experiencia laboral.</h2>
 
-           <form action="#" class="form-container-document"> <!--Formulario documentación de experiencia laboral -->
-                <label class="input-box" for="experience1"> <!-- Actualizar campo     -->
+           <!--Formulario documentación de experiencia laboral -->
+           
+                <label class="input-box" for="experience1"> 
                         <p class="paraphe">Puesto Anterior:</p>
-                        <input type="text" required name="experience1" id="experience1" placeholder="ej* Front-end en Google">
+                        <input type="text" required name="experience" id="experience" placeholder="ej* Front-end en Google">
                 </label>
 
                 <label class="input-box" for="antiguedad">
                         <h3 class="paraphe">Antiguedad:</h3>
-                        <p>Fecha Inicio</p>
-                        <input type="date" required name="antiguedad" id="antiguedad">
-                        <p>Fecha de finalización: </p>
-                        <input type="date" required name="antiguedad" id="antiguedad" placeholder="ej* ">
+                        <p>Fecha Inicio:</p>
+                        <input type="date" required name="antiguedad" id="antiguedad1">
+                        <p>Fecha de Finalización: </p>
+                        <input type="date" required name="antiguedad" id="antiguedad2" placeholder="ej* ">
                 </label>
 
                 <label class="input-box" for="acts">
                         <p class="paraphe">Actividades Desarrolladas:</p>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea name="act" id="actividades" cols="30" rows="10"></textarea>
                 </label>
 
                 <label class="input-box" for="courses">
                         <p class="paraphe">Curos:</p>
-                        <input type="text" required name="courses" id="courses" placeholder="ej* Escuela de desarrollo web en Platzi.">
+                        <input type="text" required name="courses" id="cursos" placeholder="ej* Escuela de desarrollo web en Platzi.">
                 </label>
 
                 <label class="input-box" for="recomendation">
@@ -132,49 +138,50 @@
                         <input type="file"  name="recoendation" id="recomendation">     
                 </label>
 
-           </form>
+       
 
 
            <!---------------------------------------------------------------------------------------------->
 
            <h2>Formación Académica</h2>
 
-            <form action="#" class="form-container-document"> <!--Formulario para datos generales -->
+            <!--Formulario para datos generales -->
+           
 
                 <label class="input-box" for="estudies">
                         <p class="paraphe">Grado de estudios:</p>
-                        <input type="text" required name="estudies" id="estudies" placeholder="ej* Titulado">
+                        <input type="text" required name="estudies" id="estudios" placeholder="ej* Titulado">
                 </label>
 
-                <label class="input-box" for="institucion">
+                <label class="input-box" for="inst">
                         <p class="paraphe">Institución:</p>
-                        <input type="text" required name="intitucon" id="institucion" placeholder="ej* UPEM Ixtapaluca">
+                        <input type="text" required name="inst" id="institucion" placeholder="ej* UPEM Ixtapaluca">
                 </label>
                 
-                <label class="input-box" for="region">
+                <label class="input-box" for="reg">
                         <p class="paraphe">Luegar de Formación:</p>
-                        <input type="text" required name="region" id="region" placeholder="ej* Ixtapaluca México">
+                        <input type="text" required name="reg" id="region" placeholder="ej* Ixtapaluca México">
                 </label>
 
                 <label class="input-box" for="universiti_date">
                         <p class="paraphe">Año de Graduación:</p>
-                        <input type="date" required name="date" id="university_date" placeholder="ej* 14-Julio-2023">
+                        <input type="date" required name="university_date" id="date" placeholder="ej* 14-Julio-2023">
                 </label>
 
-                <label class="input-box" for="Lenguajes">
+                <label class="input-box" for="Len">
                         <p class="paraphe">Idiomas que Domina:</p>
-                        <input type="text" required name="lenguajes" id="Lenguajes" placeholder="ej* Español, Ingles, Finlandes">
+                        <input type="text" required name="len" id="Lenguajes" placeholder="ej* Español, Ingles, Finlandes">
                 </label>
 
-                <label class="input-box" for="courses">
+                <label class="input-box" for="courses2">
                         <p class="paraphe">Curos:</p>
-                        <input type="text" required name="courses" id="courses" placeholder="ej* Escuela de desarrollo web en Platzi.">
+                        <input type="text" required name="courses2" id="cursos2" placeholder="ej* Escuela de desarrollo web en Platzi.">
                 </label>
 
             </form>   
             
             <div class="input-box">
-                <button type="button" onclick="obtenerDatos()">Guardar</button>
+                <button type="submit" class="boton" >Guardar</button>
             </div>
 
         </section>
