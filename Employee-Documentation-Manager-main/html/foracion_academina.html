@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Software</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <header>
+        <p class="logo"> GERYDEA  </p>
+        <nav class="link">
+                <a href="#">Visualizar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+
+            <h1>Gestor de documentaión de Colaboradores.</h1>
+
+            <form action="#" class="form-container-document" method="POST" id="formulario">
+
+           <h2>Formación Académica</h2>
+
+            <!--Formulario para datos generales -->
+           
+
+                <label class="input-box" for="estudies">
+                        <p class="paraphe">Grado de estudios:</p>
+                        <input type="text" required name="estudies" id="estudios" placeholder="ej* Titulado">
+                </label>
+
+                <label class="input-box" for="inst">
+                        <p class="paraphe">Institución:</p>
+                        <input type="text" required name="inst" id="institucion" placeholder="ej* UPEM Ixtapaluca">
+                </label>
+                
+                <label class="input-box" for="reg">
+                        <p class="paraphe">Luegar de Formación:</p>
+                        <input type="text" required name="reg" id="region" placeholder="ej* Ixtapaluca México">
+                </label>
+
+                <label class="input-box" for="universiti_date">
+                        <p class="paraphe">Año de Graduación:</p>
+                        <input type="date" required name="university_date" id="date" placeholder="ej* 14-Julio-2023">
+                </label>
+
+                <label class="input-box" for="Len">
+                        <p class="paraphe">Idiomas que Domina:</p>
+                        <input type="text" required name="len" id="Lenguajes" placeholder="ej* Español, Ingles, Finlandes">
+                </label>
+
+                <label class="input-box" for="courses2">
+                        <p class="paraphe">Curos:</p>
+                        <input type="text" required name="courses2" id="cursos2" placeholder="ej* Escuela de desarrollo web en Platzi.">
+                </label>
+
+            </form>   
+            
+            <a href="#" class="input-box">
+                <button type="submit" class="boton" >Guardar</button>
+            </a>
+
+        </section>
+    </main>
+
+    <script src="./js/formacion.js"></script>
+    
+</body>
+</html>

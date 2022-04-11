@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Software</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <header>
+        <p class="logo"> GERYDEA  </p>
+        <nav class="link">
+                <a href="#">Visualizar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+
+            <h1>Gestor de documentaión de Colaboradores.</h1>
+
+            <h2>Documentos Personales.</h2>
+
+           <form action="#" class="form-container-document" method="POST" id="formulario"> <!--Formulario de documentos personales-->
+                <label class="input-box" for="name">
+                        <p class="paraphe">Nombre(s):</p>
+                        <input type="text" required name="nombre" id="name" placeholder="ej* Daniel Eduardo">
+                </label>
+
+                <label class="input-box" for="ape_pat">
+                        <p class="paraphe">Apellido Paterno:</p>
+                        <input type="text" required name="ape_pat" id="pat" placeholder="ej* Perea">
+                </label>
+
+                <label class="input-box" for="ape_mat">
+                        <p class="paraphe">Apellido Materno:</p>
+                        <input type="text" required name="ape_mat" id="mat" placeholder="ej* Caballero">
+                </label>
+
+                <label class="input-box" for="naciemiento">
+                        <p class="paraphe">Fecha de naciemiento:</p>
+                        <input type="date" required name="naciemiento" id="birthday">
+                </label>
+
+                <label class="input-box" for="edad">
+                        <p class="paraphe">Edad:</p>
+                        <input type="number" required name="edad" id="age" placeholder="ej* 27 años " class="x">
+                </label>
+
+               
+                <label class="input-box" for="sex">
+                        <p class="paraphe">Sexo:</p>
+                        <select required name="Sexo" id="genero">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                        </select>
+                </label>
+
+                <label class="input-box" for="civil">
+                        <p class="paraphe">Estado Civil:</p>
+                        <select required name="civil" id="estado_civil">
+                                <option value="" disabled>Seleccione una Opción</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Otro">Otro</option>
+                        </select>
+                </label>
+
+                <label class="input-box" for="nac">
+                        <p class="paraphe">Nacionalidad</p>
+                        <input type="text" required name="nac" id="nacionalidad" placeholder="ej* Mexicano">
+                </label>
+
+                <label class="input-box" for="phone">
+                        <p class="paraphe">Teléfono:</p>
+                        <input type="number" required name="phone" id="phone" placeholder="ej* 2592-3030">
+                </label>
+
+                <label class="input-box" for="phone">
+                        <p class="paraphe">Móvil:</p>
+                        <input type="number" required name="phone" id="phone2" placeholder="ej* 55-1618-2530">
+                </label>
+
+                <label class="input-box" for="email">
+                        <p class="paraphe">Correo electrónico:</p>
+                        <input type="email" required name="email" id="correo" placeholder="ej* danielcaballero@outlook.com">
+                </label>
+
+                <label class="input-box" for="rcf">
+                        <p class="paraphe">RFC:</p>
+                        <input type="text" required name="rfc" id="rfc" placeholder="ej* ads96hdf2a">
+                </label>
+
+                <label class="input-box" for="curp">
+                        <p class="paraphe">CURP:</p>
+                        <input type="text" required name="curp" id="curp" placeholder="ej* PECD95010609HDFRN19">
+                </label>
+                
+                <label class="input-box" for="nss">
+                        <p class="paraphe">Numero de Seguro Socuial: </p>
+                        <input type="number" required name="nss" id="nss" placeholder="ej*  95647872453">
+                </label>
+                
+         
+
+           <!----------------------------------------------------------------------------------------------->
+
+          
+            </form>   
+            
+            <a href="./exp_laboral.html" class="input-box">
+                <button type="submit" class="boton" >Continuar</button>
+            </a>
+
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
+
+<!-- 
+<label class="input-box" for="">
+        <p class="paraphe"></p>
+        <input type="text" required name="" id="" placeholder="ej* ">
+</label>
+-->
