@@ -1,0 +1,204 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8f7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Header*/
+
+header{
+    height: 65px;
+    padding: 10px 35px 10px 20px;
+    display: flex;
+    gap: 85%;
+    background-color: #1a9af7;
+}
+
+.logo{
+    color: #faf8f7;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.link a{
+    color: #faf8f7;
+}
+
+/*Main*/
+
+.container{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    align-items: flex-start;
+    margin: 30px 20%; 
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 3px solid #282623;
+    box-shadow: 15px 15px 15px -3px rgba(0,0,0,0.1);
+    color: #282828;
+    background-color: #fff;
+}
+
+.container .form-container{
+    width: 30%;
+    margin: 15px 0;
+}
+    
+textarea{
+    resize: none;
+    width: 360px;
+    height: 150px;
+    outline: none; 
+    border-radius: 5px;
+    border: 2px solid #777272; 
+}
+
+textarea:hover{
+    border-color: #282828;
+}
+
+textarea:focus{
+    border-color: #1a9af7;
+}
+
+
+.form-container-document{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #868686;
+}
+
+/*Lables*/
+
+Label input{
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 2px solid #777272;    
+    border-radius: 5px;   
+}
+
+Label input:hover{
+    border: 2px solid #282828;
+}
+
+
+Label input:focus{  
+    outline: none;
+    border-color: #1a9af7;
+}
+
+
+label select{
+    width: 370px;
+    height: 55px;
+    padding-left: 10px;
+    border: 2px solid #777272;    
+    border-radius: 5px;
+}
+
+label select:hover{
+    border-color:#282828;
+
+}
+
+Label select:focus{  
+    outline: none;
+    border-color: #1a9af7;
+}
+
+.file{
+    border: none;
+}
+
+
+.boton{
+    color: #faf8f7;
+    width: 370px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #1a9af7;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: #037dd4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
